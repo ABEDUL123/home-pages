@@ -3,14 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .contact {
   min-height: 100vh;
   background-color: #c8c8fc;
   padding: 50px;
   text-align: center;
 }
-
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -29,17 +27,14 @@
 .contact-form {
   text-align: left;
 }
-
 .contact-form h3 {
   font-size: 24px;
   margin-bottom: 20px;
   color: #333;
 }
-
 .form-group {
   margin-bottom: 20px;
 }
-
 input,
 textarea {
   width: 100%;
