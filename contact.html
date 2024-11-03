@@ -20,7 +20,7 @@
   </head>
   <body>
     <nav>
-   <!--Logo Dtk-->
+      <!--Logo Dtk-->
       <input type="checkbox" id="check" />
       <label for="check" class="btn">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -30,8 +30,8 @@
       <!--Menu Nav-->
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a class="active" href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <section class="contact">
@@ -41,16 +41,14 @@
           <div class="contact-form">
             <h3>Send us a message</h3>
             <div class="form">
-            <div class="form">
-               <form action="/submit" method="post">
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" placeholder="Name" autocomplete="name" />
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" placeholder="Email" autocomplete="email" />
-                  <label for="message">Message:</label>
-                  <input type="message" id="message" placeholder="Message" autocomplete="Message" />
-                  <button id="btn" onclick="SendMail()">Submit</button>     
-                </form>
+              <label form="name">Nama:</label>
+              <input type="text" id="name" placeholder="Name" />
+              <label form="email">Email:</label>
+              <input type="email" id="email" placeholder="Email" />
+              <label form="message">Message:</label>
+              <textarea id="message" placeholder="Message"></textarea>
+              <button id="btn" onclick="sendMail()">Submit</button>
+            </div>
           </div>
           <div class="contact-info">
             <h3>Contact Information</h3>
