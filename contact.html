@@ -41,14 +41,18 @@
           <div class="contact-form">
             <h3>Send us a message</h3>
             <div class="form">
-              <label for="name">Name:</label>
-              <input type="text" id="name" placeholder="Name" />
-              <label for="name">Email:</label>
-              <input type="email" id="email" placeholder="Email" />
-              <label for="name">Message:</label>
-              <textarea id="message" placeholder="Message"></textarea>
-              <button id="btn" onclick="sendMail()">Submit</button>
-            </div>
+            <div class="form">
+               <form action="/submit" method="post">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" placeholder="Name" autocomplete="name" />
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" placeholder="Email" autocomplete="email" />
+                  <label for="message">Message:</label>
+                  <input type="message" id="message" placeholder="Message" autocomplete="Message" />
+                  <button id="btn" onclick="SendMail()">Submit</button>     
+                  <label for="Terms-and-Conditions">I agree to the Terms and Conditions</label>
+                  <input type="checkbox" name="Terms-and-Conditions" id="Terms-and-Conditions" />
+                </form>
           </div>
           <div class="contact-info">
             <h3>Contact Information</h3>
